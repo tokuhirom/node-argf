@@ -33,7 +33,7 @@ ARGF.prototype.forEach = function (callback) {
         self.buffer = '';
     });
 };
-ARGF.prototype.forEachByte = function (callback) {
+ARGF.prototype.forEachChar = function (callback) {
     var self = this;
 
     this._openFirstStream();
