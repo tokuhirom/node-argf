@@ -4,7 +4,7 @@
   "description": "Ruby's ARGF object for Node.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/tap test/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
     "ruby"
   ],
   "author": "Tokuhiro Matsuno",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.3.1"
+  }
 }
