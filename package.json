@@ -1,0 +1,19 @@
+{
+  "name": "argf",
+  "version": "0.0.1",
+  "description": "Ruby's ARGF object for Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tokuhirom/node-argf.git"
+  },
+  "keywords": [
+    "ARGF",
+    "ruby"
+  ],
+  "author": "Tokuhiro Matsuno",
+  "license": "MIT"
+}
